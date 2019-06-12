@@ -1,0 +1,14 @@
+{
+  "name": "tny-ui-js-test",
+  "version": "1.0.0",
+  "description": "Js UI tests for TNY",
+  "main": "init.js",
+  "author": "Krishna Palakollu",
+  "license": "ISC",
+  "scripts": {
+    "test": "galen test tny/tests/ --htmlreport reports --config .galen.config"
+  },
+  "devDependencies": {
+    "galenframework-cli": "2.4.4"
+  }
+}

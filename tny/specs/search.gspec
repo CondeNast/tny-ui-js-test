@@ -1,0 +1,12 @@
+@objects
+  search  a.stacked-navigation__search
+  navigation .navigation
+
+= Search Box =
+  search:
+    @on desktop
+      visible
+    @on mobile
+      absent
+
+
